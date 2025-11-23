@@ -142,7 +142,14 @@ const Index = () => {
   };
 
   return (
-    <div className="h-screen w-screen overflow-hidden bg-gradient-to-br from-[#5A8EDF] via-[#6FB5E0] to-[#7EC857] relative">
+    <div 
+      className="h-screen w-screen overflow-hidden relative"
+      style={{
+        backgroundImage: 'url(https://cdn.poehali.dev/files/04231761-d565-466d-9498-cbe7ec657a08.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }}
+    >
       
       {desktopIcons.map((icon, idx) => (
         <div
